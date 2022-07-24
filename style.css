@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playball', cursive;
+    font-size: 105%;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    }
+
+.company-social-links ul{
+    background-color:rgb(34, 220, 96);
+   width:200px ;
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.dharani{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:black;
+    border-radius: 4px;
+    color: rgb(34, 220, 96);
+    /* font-size: 2rem; */
+}
+
+.social ul{
+    background-color: rgb(34, 220, 96);
+   width:200px ;
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.icon-color{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    /* font-size: 2rem; */
+    background-color: black;
+    color: rgb(34, 220, 96);
+    border-radius: 4px;
+
+}
+
+/* .company-social-links ul{
+   display: flex;
+   /* justify-content: center;
+   align-items: center; */
+} */
